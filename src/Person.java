@@ -23,11 +23,10 @@ public class Person {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Person{");
-        sb.append("fName='").append(fName).append('\'');
-        sb.append(", lName='").append(lName).append('\'');
-        sb.append(", email='").append(email).append('\'');
-        sb.append('}');
+        final StringBuilder sb = new StringBuilder();
+        sb.append("First Name ").append(fName);
+        sb.append(",   Last Name ").append(lName);
+        sb.append(",   email: ").append(email);
         return sb.toString();
     }
 }

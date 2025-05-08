@@ -23,11 +23,10 @@ public class BankAccount {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("BankAccount{");
-        sb.append("owner=").append(owner);
-        sb.append(", iban='").append(iban).append('\'');
-        sb.append(", balance=").append(balance);
-        sb.append('}');
+        final StringBuilder sb = new StringBuilder("Bank Account ");
+        sb.append("owner ").append(owner);
+        sb.append(", IBAN: ").append(iban);
+        sb.append(", balance: ").append(balance);
         return sb.toString();
     }
 }
